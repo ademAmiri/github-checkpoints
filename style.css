@@ -1,0 +1,33 @@
+.a{
+    border: 2px solid rebeccapurple;
+    background-color: rgb(255, 0, 0);
+    padding-right: 10px;
+    padding-left:0%;
+}
+button{
+    background-color: brown;
+    padding: 10px 10px 10px 10px ;
+    margin-top: 100px;
+    margin: left 0%; ;
+    border-style:groove;
+    border-width: 2px;
+    width: 100%;
+    text-decoration:underline;
+    
+
+
+}
+#nav{
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+
+}
+#home{
+    background-image: url(https://toohotel.com/wp-content/uploads/2022/09/TOO_restaurant_Panoramique_vue_Paris_nuit_v2-scaled.jpg);
+    background-size: cover;
+    text-align: center;
+    color: blue;
+
+} 

@@ -1,95 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Page Web </title>
-</head>
-<body>
-  
-   
-   <!--nav barre-->
-    <nav>
-       <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#work">WORK</a></li>
-        <li><a href="#resume">RESUME</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
-   <!--home section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/32/3075/3075977.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <!--partie de home-->
     <section id="home">
-        <h3>HOME</h3>
-         <h1>Welcome to my websites </h1>
-         <p>Here, you'll find information about my work, experience, and how to get in touch with me.</p>
+      <h1>Welcome to My Restaurant</h1>
+      <h1>Explore and discover more about us !</h1>
+      <button type="submit">EXPLORE</button><br />
+      <nav id="nav">
+        <a class="a" href="#home">HOME</a>
+        <a class="a" href="#about">ABOUT</a>
+        <a class="a" href="#service">SERVICES</a>
+        <a class="a" href="#gallery">GALLERY</a>
+        <a class="a" href="#contact">CONTACT</a>
+      </nav>
     </section>
-   <!--about section -->
+    <!--partie de gallery-->
+    <section id="gallery">
+      <h1>Restaurant Menu</h1>
+      <img
+        width="300"
+        height="300"
+        src="https://blog.photoadking.com/wp-content/uploads/2020/09/Restaurant-Menu-Templates-576x1024.jpg"
+        alt="Restaurant Menu"
+        width="300"
+        height="400"
+      />
+      <h2>GALLERY</h2>
+      <img width="300" height="300" src="p1.jpg" alt="error" />
+      
+      <img width="300" height="300" src="p2.jpeg" alt="error" />
+
+    </section>
+    <!--partie de about-->
     <section id="about">
-        <h3>ABOUT ME</h3>
-        <img width="300" height="300" src="photo1.jpg" alt="error">
-        <p>Hi! I'm Adem Lamiri, a passionate web developer with experience in front-end and back-end technologies. I love building interactive websites and solving real-world problems with code</p>
+      <h1>ABOUT US</h1>
+      <p>
+        We are a restaurant that specializes in delicious bruschetta. Our menu
+        features a variety of bruschetta options, each made with fresh
+        ingredients and a unique twist.
+      </p>
+      <p>
+        Our chefs are passionate about creating the perfect bruschetta
+        experience for our customers. We believe in using only the best
+        ingredients to ensure that every bite is bursting with flavor.
+      </p>
+    </section>
+    <!--partie de services-->
+    <section id="service">
+      <h2>SERVICES</h2>
+      <h1>bienvenue sur le site de notre restaurant l'Aromate</h1>
+      <p>
+        <b>
+          nous sommes le restaurant Aromate , une equipe passionnées , dédiée a
+          offrir les meilleurs services
+        </b>
+      </p>
+      <p>
+        <i><b> Nos services </b></i>
+      </p>
+      <p>
+        <b> Menu 1 – Traditionnel tunisien : </b>
+        <br />
+        Entrée : Salade méchouia + œuf dur + thon Plat : Couscous au poulet ou
+        aux légumes Dessert : Fruits de saison (melon, pastèque)
+      </p>
 
+      <p>
+        <b>Menu 2 – Léger et frais : </b>
+        <br />
+        Entrée : Salade verte tunisienne Plat : Poisson grillé (daurade ou loup)
+        + pommes de terre au four Dessert : Sorbet citron ou salade de fruits
+        frais
+      </p>
+      <p>
+        <b> Menu 3 – Végétarien tunisien : </b>
+        <br />
+        Entrée : Salade tunisienne (tomate, oignon, concombre) Plat : Couscous
+        aux légumes ou chakchouka aux œufs Dessert : Dattes farcies aux amandes
+      </p>
     </section>
-    <!--work section -->
-    <section id="work">
-        <h3>MY WORK </h3>
-         <ol type="I">
-    <li><a href="project1.html">Project 1</a></li>
-    <li><a href="project2.html">Project 2</a></li>
-    <li><a href="project3.html">Project 3</a></li>
-  </ol>
-    </section>
-    <!--resume section -->
-    <section id="resume">
-         <h2>Resume</h2>
-        <p>Check out my resume below or <a href="resume.pdf" download>download PDF</a>.</p>
-        <h3>Experience</h3>
-        <ul>
-           <li>Web Developer at XYZ Corp (2020 - Present)</li>
-           <li>Junior Developer at ABC Ltd. (2018 - 2020)</li>
-        </ul> 
-    </section>
-    <!--contact section -->
+    <!--partie de contact -->
     <section id="contact">
-        <h3>CONTACT</h3>
-        <!--formulaire-->
-        <form action="">
-            <fieldset>
-                <legend>
-                    <b>contact </b>
-                </legend>
-                <table>
-                    <tr>
-                        <td>Nom:</td> 
-                        <td><input type="text" required></td>
-                    </tr>
-                    <tr>
-                         <td>prenom:</td>
-                         <td><input type="text" required></td> 
-                        
-                        </tr>
-                        <tr>
-                            <td>Email:</td>
-                            <td><input type="email" required></td>
-                        </tr>
-                        <tr>
-                            <td>password:</td>
-                            <td><input type="password" name="password" id="pw" required></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <button type="submit">Envoyer</button>
-                            </td>
-                        </tr>
-               
-                </table>
-
-            </fieldset>
-        </form>
+      <h2>CONTACT</h2>
+      <form action="submit">
+        <fieldset>
+          <table>
+            <tr>
+              <td>
+                <label for="name">Name:</label>
+              </td>
+              <td>
+                <input type="text" id="name" name="name" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email:</label>
+              </td>
+              <td>
+                <input type="email" id="email" name="email" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="message">Message:</label>
+              </td>
+              <td>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  cols="50"
+                  required
+                ></textarea>
+              </td>
+            </tr>
+            <tr colspan="2">
+              <td>
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
     </section>
-    <!--footer page click sur le lien -->
-    <p>if you have time,you should read more <a href="footer.html">Click here</a></p>
-    
-</body>
+    <p>© 2025 adem wafa sarra restaurant all rights reserved </p>
+  </body>
 </html>
